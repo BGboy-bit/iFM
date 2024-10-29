@@ -1,24 +1,27 @@
-# ifm
+# iFM
 
-## Project setup
+# 拉取项目
+```
+git clone https://github.com/BGboy-bit/iFM.git
+cd iFM
+```
+
+## 安装依赖
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
+## 启动前端
 ```
 npm run serve
 ```
 
-### Compiles and minifies for production
+## 启动后端
 ```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
+npm start
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## 启动应用界面
+```
+npm run electron
+```
